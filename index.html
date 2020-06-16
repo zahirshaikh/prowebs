@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    
+    <div class="content">
+
+    <div id="mySidebar" class="sidebar">
+        <a style="text-decoretion:none;"href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </div>
+
+    
+        <div class="title">
+        <h1>hello, wourld!</h1>
+    
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perferendis minima illo perspiciatis atque aut deserunt est nisi sapiente labore magnam repudiandae soluta distinctio similique iste, saepe error beatae vel?</p>
+       </div>
+    </div>
+    <svg  id="svg"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319"><path fill="#fff" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,128C384,107,480,117,576,112C672,107,768,85,864,90.7C960,96,1056,128,1152,133.3C1248,139,1344,117,1392,106.7L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+
+
+
+    <div class="row">
+        <div class="col-sm-6"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere animi magnam doloremque quasi veritatis ipsam quod eligendi facilis similique. Fuga id nam magni qui blanditiis. Nemo dolore ullam iste?</p></div>
+        <div class="col-sm-6"><img src="" alt=""></div>
+      </div>
+
+
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+    
+</body>
+</html>
